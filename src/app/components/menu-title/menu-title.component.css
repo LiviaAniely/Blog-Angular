@@ -1,0 +1,17 @@
+.menu-title-container{
+  color: #fff;
+}
+#menu-title{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 135px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
