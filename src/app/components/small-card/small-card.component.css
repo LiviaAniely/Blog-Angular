@@ -1,0 +1,30 @@
+.small-card-container{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  margin-right: 100px;
+}
+
+.small-card-img img{
+  width: 200px;
+  height: 110px;
+  min-width: 200px;
+  margin-right: 10px;
+}
+.small-card-title a{
+  text-decoration: none;
+}
+
+.small-card-title a:hover{
+  text-decoration: underline;
+}
+
+.small-card-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr{
+  margin: 10px 100px 10px 0;
+}
