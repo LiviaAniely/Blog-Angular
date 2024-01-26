@@ -13,6 +13,8 @@
 }
 .small-card-title a{
   text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .small-card-title a:hover{

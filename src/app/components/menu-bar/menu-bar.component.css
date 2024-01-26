@@ -1,0 +1,18 @@
+.menu-bar-container{
+  margin: 15px 0 15px 0;
+}
+.menu-bar-elements{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.menu-bar-elements li{
+  margin-right: 20px;
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+.menu-bar-elements li a{
+  text-decoration: none;
+}
