@@ -1,3 +1,4 @@
+<hr>
 <div class="content-container">
 
   <div class="content-img">
@@ -6,9 +7,15 @@
 
   <div class="content-title">
     <h1>{{ contentTitle }}</h1>
+  </div>
+
+  <div class="back-home">
+    <hr>
+    <a [routerLink] = "['']">VOLTAR</a>
     <hr>
   </div>
-  <a [routerLink] = "['']">VOLTAR</a>
+
+
   <div class="content-description">
     <p>
       {{ description }}

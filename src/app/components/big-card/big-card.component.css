@@ -1,29 +1,41 @@
 .big-card-container{
   height: 450px;
   padding: 10px;
-  margin-left: 100px;
+  margin-left: 150px;
   margin-right: 20px;
 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+
 }
 
-.big-card-title a{
+.big-card-title{
+  margin-left: 10px;
   font-size: 20px;
   margin-top: 20px;
+
+}
+.big-card-title a{
   text-decoration: none;
 }
 
 .big-card-title a:hover{
   cursor: pointer;
+  text-decoration: underline;
 }
 
+.big-card-description{
+  margin-left: 10px;
+}
 
 .big-card-description p{
   color: grey;
   margin-top: 10px;
+}
+
+.big-card-description a{
+  text-decoration: none;
 }
 
 .big-card-img{
@@ -31,5 +43,7 @@
 }
 
 .big-card-img img{
-  margin-left: 80px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid grey;
 }
